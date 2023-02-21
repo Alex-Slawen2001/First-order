@@ -1,0 +1,240 @@
+@media (min-width: 320px) and (max-width: 749px) {
+   /* Под телефон */
+    body {
+        background-image: none;
+    }
+    .header {
+        display: flex;
+          text-align: center;
+        margin-left: 180px; 
+    }
+    @media (min-width: 700px) and (max-width: 749px) {
+      .header {
+        margin-left: 230px;
+      }
+    }
+    .navi {
+        position: relative;
+          display: flex; 
+
+           flex-direction: column;
+            padding-top: 150px;
+            font-size: 25px;
+           gap: 10px;
+        right: 400px; 
+        
+    }
+
+    .link{
+        border-bottom: 2px solid orange;
+        padding: 1px;
+    }
+    .symbol {
+        position: relative; 
+        right: 135px;    
+        
+    }
+    .container {
+        display: flex;
+          max-width: 749px;
+           text-align: center;
+           margin: 0 auto;
+        line-height: 1.4;
+           
+    }
+    .one {
+        position: relative;
+        left: 385px;
+    }
+    h3 {
+        position: relative;
+        left: 385px;
+
+    }
+    .two {
+        position: relative;
+          left: 385px;
+          padding-top: 500px;
+        margin-bottom: auto ;
+
+    }
+    .area {
+        position: relative;
+          left: 387px;
+        padding-top: 10px;
+    }
+    .info1 {
+        position: relative;
+          left: 387px;
+          margin-bottom: -25px; 
+        margin-top: -30px;
+    }
+    .info2 {
+        position: relative;
+          left: 387px; 
+        margin-bottom: -15px; 
+        
+    }
+    .info3 {
+        position: relative;
+          left: 387px; 
+        margin-top: auto;
+        
+    }
+    .bulb {
+        display: none;
+    }
+   
+    .cow {
+        display: none;
+    }
+    
+  
+}
+@media (min-width: 1024px) and (max-width: 1281px) {
+    /* для планшетов(альбомная оринетация) */
+    body{
+        background-image: none;
+    }
+    .header {
+        display: flex;
+          flex-direction: column;
+          margin: 0 auto; 
+        padding-left: 990px;
+    }
+    .navi {
+        display: flex;
+           position: relative;
+            flex-direction: column;
+             padding-top: 100px;
+             font-size: 25px;
+           gap: 10px;
+         right: 400px; 
+        text-align: center;
+    }
+    .link{
+        border-bottom: 2px solid orange;
+        padding: 1px;   
+}
+    .symbol {
+        position: relative; 
+          right: 337px; 
+        text-align: center;   
+}
+.container {
+    display: flex;
+      max-width: 850px;
+       text-align: center;
+     margin-left: 200px;
+    line-height: 1.4;     
+}
+.one {
+    position: relative;
+    left: 478px;
+}
+h3 {
+    position: relative;
+    left: 475px;
+}
+.two {
+    position: relative;
+      padding-top: 400px;
+    left: 470px;
+   
+}
+.three {
+    padding-top: 20px;
+    right: 85px;
+}
+.area {
+    position: relative;
+      left: 470px;
+    padding-top: 10px;
+}
+.info1 {
+position: relative;
+  left: 470px;
+padding-top: 20px;
+
+
+}
+.info2 {
+position: relative;
+  left: 465px;
+padding-top: 20px;
+
+}
+.info3 {
+    position: relative;
+      left: 465px;  
+    padding-top: 20px; 
+}
+.number1, .line1, .number2, .line2, .number3, .line3, .bulb, .cow  {
+    display: none;
+}
+
+
+}
+@media (min-width: 1282px ) and (max-width: 1921px) {
+    /* Для компьтеров */
+    body {
+        background-image: url("https://sun9-west.userapi.com/sun9-46/s/v1/ig2/a2Y8H5u7KjeQ8YUTxmcFYG42KpCIiXLbGX0Y0FQirGtf4z5isiR5Zv-kr2jJk7MnWybijefkDsdGhBQ0VAiYHrwp.jpg?size=522x2160&quality=95&type=album");
+         background-repeat: no-repeat;
+          background-size: 83%;
+          background-position: center left 37%;
+         background-blend-mode: multiply;
+        max-width: 70%;
+    }
+    .header {
+        width: 100%;
+          display: flex;
+           padding-left: 480px;
+          padding-top: 30px;
+        padding-bottom: 52px;
+    }
+    .navi {
+        padding-top: 10px;
+          display: inline;
+            font-size: 17px;
+           margin-left: -8%;
+        opacity: 0.8;
+        
+        }
+        .link {
+            padding-top: 20px;
+               padding-right: 35px;
+               text-decoration: none;
+            color: #000000;
+            
+        }
+        @media (min-width: 1282px) and (max-width: 1390px ) {
+            .link {
+                padding-top: 20px;
+                   padding-right: 25px;
+                   text-decoration: none;
+                color: #000000; 
+            }
+        }
+        
+        .link1 {
+            padding-left: 10px;
+        }
+    
+
+        .symbol {
+            position: absolute;
+            left: 9.5%;
+            padding-top: 0.3%;
+           
+        }
+      .container {
+        max-width: 70%;
+        margin: 0 auto;
+        
+        
+      }
+      .inform{
+        padding-bottom: 300px;
+      }
+          
+        }
